@@ -1,0 +1,10 @@
+{
+  "daily_cap": 20,
+  "max_five_hour_percent": 90,
+  "stale_lock_minutes": 90,
+  "products": [
+    {"name": "web-app", "walk": "Start the dev server on a reserved port, sign up with a test account, do the three main jobs, try bad input, check every link on the pages you touched."},
+    {"name": "desktop-app", "walk": "Run from a scratch HOME, first-run setup, import the sample data copy, export, reopen, check the export opens in the target tool."},
+    {"name": "cli", "walk": "Fresh virtualenv, install from the repo, run --help, follow the README quick start word for word, then the common error paths."}
+  ]
+}
